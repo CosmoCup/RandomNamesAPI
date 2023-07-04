@@ -1,6 +1,9 @@
 {
-  data:
-  {
-  id : 1
-  }
+  "names": [
+    "Walter",
+    "Saul",
+    "Jesse",
+    "Skyler",
+    "Gus"
+  ]
 }
