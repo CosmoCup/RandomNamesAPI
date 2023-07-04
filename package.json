@@ -1,0 +1,6 @@
+{
+    "homepage": "https://github.com/owner/project#readme",
+    "dependencies": {
+        "express": "^3.0.0"
+    }
+}
