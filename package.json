@@ -1,0 +1,11 @@
+{
+    "homepage": "https://cosmocup.github.io/RandomNamesAPI",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dependencies": {
+        "express": "^4.17.2"
+    },
+    "devDependencies": {
+        "gh-pages": "^5.0.0"
+    }
+}

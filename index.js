@@ -9,10 +9,11 @@ function getRandomInt(max) {
 names = ["hello", "john"]
 
 app.get('/', (req, res) => {
-    console.log("request from " + req.ip)
-  res.send( names[ getRandomInt( names.length ) ] )
+    newName = names[ getRandomInt( names.length ) ]
+    console.log("request from " + req.ip + " responding with '" + newName + "'")
+    res.send( newName )
 })
 
 app.listen(port, () => {
-  console.log(`Random Names API listening on port ${port}`)
+    console.log(`Random Names API listening on port ${port}`)
 })
